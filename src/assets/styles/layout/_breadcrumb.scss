@@ -1,0 +1,16 @@
+.layout-breadcrumb {
+    display: none;
+
+    .p-breadcrumb {
+        background-color: transparent;
+        border: 0;
+    }
+
+    .p-breadcrumb ul li .p-menuitem-link:focus {
+        box-shadow: none;
+    }
+
+    .p-breadcrumb ul li .p-menuitem-link .p-menuitem-icon {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+}

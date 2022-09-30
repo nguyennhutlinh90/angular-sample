@@ -1,0 +1,12 @@
+<div class="layout-wrapper layout-static" [ngClass]="layoutClass">
+    <app-topbar></app-topbar>
+    <app-sidebar></app-sidebar>
+    <div class="layout-main-container">
+        <app-breadcrumb></app-breadcrumb>
+        <div class="layout-main">
+            <router-outlet></router-outlet>
+        </div>
+        <app-footer></app-footer>
+    </div>
+    <div class="layout-mask"></div>
+</div>
